@@ -1,13 +1,5 @@
-<!-- default file list -->
-*Files to look at*:
-
-* [LayoutSettingsPersistingHelper.cs](./CS/Q236875/LayoutSettingsPersistingHelper.cs) (VB: [LayoutSettingsPersistingHelper.vb](./VB/Q236875/LayoutSettingsPersistingHelper.vb))
-<!-- default file list end -->
 # How to combine the layout of multiple controls in a single file
 
-
-<p>Some of our components allow you to save their layout into memory, XML file or system registry. However, there is no generic method to save the layout of all components within the Form. This example demonstrates how to save the layout of multiple controls into the temporary memory stream and then merge results into a single XML file.</p>
-
-<br/>
+Starting with version **14.2**. we support [Workspace Manager](https://documentation.devexpress.com/WindowsForms/17674/Controls-and-Libraries/Form-Layout-Managers/Workspace-Manager) that provides a centralized mechanism to save/restore layouts of multiple our controls to a single stream or file. Refer to the [How to use WorkspaceManager for capturing, applying, saving and loading workspaces](https://github.com/DevExpress-Examples/how-to-use-workspacemanager-for-capturing-applying-saving-and-loading-workspaces-t190543) example to learn how to use this component. 
 
 
